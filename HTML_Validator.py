@@ -4,7 +4,7 @@ import re
 
 def validate_html(html):
     '''
-    This function performs a limited version of html validation by checking whether every opening tag has a corresponding closing tag.
+    this function performs a limited version of html validation by checking whether every opening tag has a corresponding closing tag.
 
     >>> validate_html('<strong>example</strong>')
     True
