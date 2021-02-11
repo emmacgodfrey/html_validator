@@ -15,6 +15,12 @@ def validate_html(html):
     stack = []
     tags = _extract_tags(html)
 
+    if len(tags) == 0 and '>' in html:
+        return False
+
+    if len(tags) == 0 and '<' in html:
+        return False
+
     for tag in tags:
         if not tag.startswith("</"):
             stack.append(tag)
@@ -51,4 +57,4 @@ def _extract_tags(html):
     ['<strong>', '</strong>']
     '''
 
-    return list(re.findall(r'<[^>]+>', html))
+    return list(re.findall(r'<[^>]+?>', html))
