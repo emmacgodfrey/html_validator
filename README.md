@@ -1,6 +1,6 @@
 # HTML Validation with Stacks
-[![](https://github.com/mikeizbicki/html_validator/workflows/tests/badge.svg)](https://github.com/mikeizbicki/html_validator/actions?query=workflow%3Atests)
-[![](https://github.com/mikeizbicki/html_validator/workflows/extra_credit/badge.svg)](https://github.com/mikeizbicki/html_validator/actions?query=workflow%3Atests)
+[![](https://github.com/emmacgodfrey/html_validator/workflows/tests/badge.svg)](https://github.com/emmacgodfrey/html_validator/actions?query=workflow%3Atests)
+[![](https://github.com/emmacgodfrey/html_validator/workflows/extra_credit/badge.svg)](https://github.com/emmacgodfrey/html_validator/actions?query=workflow%3Atests)
 
 You will implement an extended version of the balanced parentheses algorithm that checks whether html tags are balanced.
 (See [chapter 4.7](https://runestone.academy/runestone/books/published/pythonds/BasicDS/BalancedSymbolsAGeneralCase.html) of the book for details on the balanced parentheses algorithm.)
@@ -8,9 +8,9 @@ You will implement an extended version of the balanced parentheses algorithm tha
 **Learning Objectives:**
 
 1. implement the balanced parenthesis algorithm
-1. practice using HTML
-1. practice using stacks
-1. practice using the pytest
+2. practice using HTML
+3. practice using stacks
+4. practice using the pytest
 
 ## Background
 
