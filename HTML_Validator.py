@@ -32,7 +32,6 @@ def validate_html(html):
     return len(stack) == 0
 
     # HINT:
-<<<<<<< HEAD
     # use the _extract_tags function below to generate a list of
     # html tags without any extra text;
     # then process these html tags using the balanced parentheses
@@ -40,11 +39,13 @@ def validate_html(html):
     # the main difference between your code and the book's code will
     # be that you will have to keep track of not just the 3 types of
     # parentheses,
-=======
-    # use the _extract_tags function below to generate a list of html tags without any extra text;
-    # then process these html tags using the balanced parentheses algorithm from the class/book
-    # the main difference between your code and the code from class will be that you will have to keep track of not just the 3 types of parentheses,
->>>>>>> fc64c1e55bf297217be819d37ef701f4d6fb2e1b
+    # use the _extract_tags function below to generate a list of html
+    # tags without any extra text;
+    # then process these html tags using the balanced parentheses
+    # algorithm from the class/book
+    # the main difference between your code and the code from class
+    # will be that you will have to keep track of not just the 3 types
+    # of parentheses,
     # but arbitrary text located between the html tags
 
 
